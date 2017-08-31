@@ -12,4 +12,5 @@ Nome: Ariadne Fagundes Luiz RA:145352 Id:ariadnefagundes
 
 Nome: Vinicius Carvalho RA: 148167 Id: V148167
 
-Em nosso projeto iremos utilizar os dados do IBGE referente ao censo da utilização da internet, o sistema irá filtrar os dados e gerar gráficos conforme solicitado ao usuário.
+Em nosso projeto iremos utilizar os dados do IBGE referente ao censo da utilização da internet.
+O sistema irá filtrar os dados do IBGE e gerar os gráficos conforme solicitado pelo usuário.
