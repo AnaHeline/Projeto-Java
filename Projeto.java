@@ -12,12 +12,13 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
 /**
  *
  * @author a159599
- * @author a145352
  */
 public class Projeto {
 
@@ -38,6 +39,13 @@ public class Projeto {
             
             for (int i = 0; i < tamanholista; i++ ){
                 Node noPessoa = listaDePessoas.item(i);
+            }
+            
+            if (noPessoa.getNodeType() == Node.ELEMENT_NODE){
+                
+                Element ElementoPessoa  = (Element) noPessoa;
+                
+                String Nome = elementoPessoa.getAtribute ("Nome"); 
             }
           
         } catch (ParserConfigurationException ex) {
