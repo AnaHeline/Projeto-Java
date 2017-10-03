@@ -8,6 +8,7 @@ package projeto;
 /**
  *
  * @author a159599
+ * @author a145352
  */
 public class NewJPanel extends javax.swing.JPanel {
 
